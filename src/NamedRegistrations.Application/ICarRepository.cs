@@ -6,6 +6,6 @@ namespace NamedRegistrations.Application
 {
     public interface ICarRepository
     {
-        Task<IList<Car>> GetAllCarsAsync();
+        Task<IList<Car>> GetCarsAsync(CarType carType);
     }
 }
